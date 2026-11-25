@@ -11,21 +11,25 @@ concurrency:
   group: pages
   cancel-in-progress: false
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - name: Stage site
         run: |
           mkdir -p _site/assets
           cp docs/index.html docs/site.css _site/
-          cp logos/*.svg social/*.svg social/*.png docs/assets/*.png _site/assets/ 2>/dev/null || true
+          cp logos/*.svg social/*.svg social/*.png _site/assets/
           cp logos/goc-mark.svg _site/assets/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v4
