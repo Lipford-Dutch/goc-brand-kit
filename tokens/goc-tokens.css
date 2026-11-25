@@ -1,0 +1,22 @@
+/* Generals of Chaos design tokens — extracted from https://cbgoc-cloud.top */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap");
+
+:root {
+  color-scheme: dark;
+  --goc-bg: #07090a;
+  --goc-surface: #0b0e10;
+  --goc-text: #f4f5f3;
+  --goc-muted: #afb4b6;
+  --goc-subtle: #8b9295;
+  --goc-line: rgba(255, 255, 255, 0.18);
+  --goc-amber: #e65f00;
+  --goc-amber-hover: #ff7620;
+  --goc-amber-bright: #ff8b3d;
+  --goc-green: #3ee6a2;
+  --goc-paper: #f4f5f3;
+  --goc-font-display: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --goc-font-body: Inter, "Segoe UI", Arial, sans-serif;
+  --goc-font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --goc-brand-tracking: 0.23em;
+  --goc-max: 112rem;
+}

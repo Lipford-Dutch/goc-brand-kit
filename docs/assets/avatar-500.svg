@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" role="img" aria-label="Generals of Chaos">
+  <rect width="500" height="500" fill="#07090a"/>
+  <g transform="translate(90 90) scale(5)">
+    <rect width="64" height="64" rx="6" fill="#0b0e10"/>
+    <path d="M14 14h36v8H22v20h20v-6H30v-8h20v22H14z" fill="#f4f5f3"/>
+    <path d="M50 14h-8v8h8zM22 42h8v8h-8z" fill="#e65f00"/>
+  </g>
+</svg>

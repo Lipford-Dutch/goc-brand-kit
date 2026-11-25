@@ -1,0 +1,25 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/draft/tr/design-tokens.schema.json",
+  "name": "Generals of Chaos",
+  "source": "https://cbgoc-cloud.top",
+  "color": {
+    "bg": { "$value": "#07090a", "$type": "color", "comment": "Page background" },
+    "surface": { "$value": "#0b0e10", "$type": "color" },
+    "text": { "$value": "#f4f5f3", "$type": "color" },
+    "muted": { "$value": "#afb4b6", "$type": "color" },
+    "subtle": { "$value": "#8b9295", "$type": "color" },
+    "line": { "$value": "rgba(255, 255, 255, 0.18)", "$type": "color" },
+    "amber": { "$value": "#e65f00", "$type": "color", "comment": "Primary accent" },
+    "amberHover": { "$value": "#ff7620", "$type": "color" },
+    "amberBright": { "$value": "#ff8b3d", "$type": "color" },
+    "green": { "$value": "#3ee6a2", "$type": "color", "comment": "Status / success" },
+    "paper": { "$value": "#f4f5f3", "$type": "color", "comment": "Inverse surface" }
+  },
+  "font": {
+    "display": { "$value": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif", "$type": "fontFamily", "comment": "Headlines, uppercase, often condensed to 74% width on the HQ site. Impact is a system face; do not ship an unlicensed copy." },
+    "body": { "$value": "Inter, 'Segoe UI', Arial, sans-serif", "$type": "fontFamily" },
+    "mono": { "$value": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace", "$type": "fontFamily" },
+    "brandTracking": { "$value": "0.23em", "$type": "dimension" }
+  },
+  "space": { "max": { "$value": "112rem", "$type": "dimension" } }
+}

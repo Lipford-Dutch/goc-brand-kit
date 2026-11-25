@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Generals of Chaos">
+  <rect width="1280" height="640" fill="#07090a"/>
+  <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#f4f5f3" stroke-opacity=".06"/></pattern>
+  <rect width="1280" height="640" fill="url(#g)"/>
+  <g transform="translate(80 180)">
+    <rect width="64" height="64" rx="6" fill="#0b0e10" stroke="#f4f5f3" stroke-opacity=".18"/>
+    <path d="M14 14h36v8H22v20h20v-6H30v-8h20v22H14z" fill="#f4f5f3"/>
+    <path d="M50 14h-8v8h8zM22 42h8v8h-8z" fill="#e65f00"/>
+  </g>
+  <text x="168" y="210" fill="#f4f5f3" font-family="Inter,'Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" letter-spacing="8">GENERALS OF CHAOS</text>
+  <text x="168" y="236" fill="#8b9295" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" letter-spacing="3">LIPFORD-DUTCH  ·  CAROLINA BEACH, NC</text>
+  <text x="80" y="380" fill="#f4f5f3" font-family="Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif" font-size="92">ORDER THE CHAOS.</text>
+  <text x="80" y="450" fill="#afb4b6" font-family="Inter,'Segoe UI',Arial,sans-serif" font-size="26">Network automation · observability · civic tech · local commerce</text>
+  <rect x="80" y="500" width="200" height="3" fill="#e65f00"/>
+</svg>

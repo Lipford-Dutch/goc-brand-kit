@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap");
+:root {
+  --bg: #07090a; --surface: #0b0e10; --text: #f4f5f3; --muted: #afb4b6;
+  --line: rgba(255,255,255,.18); --amber: #e65f00; --green: #3ee6a2;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: Inter, "Segoe UI", Arial, sans-serif; line-height: 1.5; }
+a { color: var(--amber); }
+header, main, footer { width: min(72rem, 92vw); margin: 0 auto; }
+header { display: flex; align-items: center; gap: 1rem; padding: 1.5rem 0; border-bottom: 1px solid var(--line); }
+header img { width: 48px; height: 48px; }
+.brand { text-transform: uppercase; font-weight: 800; letter-spacing: .23em; font-size: .8rem; }
+h1, h2 { font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; text-transform: uppercase; letter-spacing: .02em; font-weight: 400; margin: 2.5rem 0 .8rem; }
+h1 { font-size: clamp(2.4rem, 6vw, 4.2rem); }
+h2 { font-size: 1.8rem; color: var(--text); }
+.hero p { color: var(--muted); max-width: 40rem; }
+.swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr)); gap: 1rem; }
+.swatch { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.swatch i { display: block; height: 5rem; }
+.swatch p { margin: .6rem .8rem .8rem; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .8rem; }
+.row { display: grid; grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr)); gap: 1.5rem; align-items: center; }
+.row img { width: 100%; height: auto; background: #0b0e10; border: 1px solid var(--line); border-radius: 8px; }
+.paper { background: #f4f5f3; padding: 1rem; border-radius: 8px; }
+.rules { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.rules div { border: 1px solid var(--line); border-radius: 8px; padding: 1rem 1.2rem; background: var(--surface); }
+.rules h3 { margin: 0 0 .5rem; font-size: .85rem; letter-spacing: .16em; text-transform: uppercase; }
+.yes h3 { color: var(--green); } .no h3 { color: var(--amber); }
+footer { border-top: 1px solid var(--line); padding: 2rem 0 3rem; color: var(--muted); font-size: .9rem; }
+@media (max-width: 640px) { .rules { grid-template-columns: 1fr; } }
